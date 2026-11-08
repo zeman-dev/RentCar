@@ -1,0 +1,189 @@
+.form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  font-family: inherit;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 196px;
+}
+
+.label {
+  font-size: 12px;
+  line-height: 1.2;
+  color: #8d929a;
+}
+
+/* ---------- select ---------- */
+.control {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 44px;
+  padding: 0 14px 0 18px;
+  background: #fff;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.placeholder,
+.value {
+  font-size: 16px;
+  font-weight: 500;
+  color: #101828;
+}
+
+.placeholderError {
+  font-size: 16px;
+  font-weight: 500;
+  color: #e5484d;
+}
+
+.hidden {
+  display: none;
+}
+
+.arrow,
+.arrowOpen {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  margin-top: 4px;
+  padding: 8px 4px 8px 0;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(16, 24, 40, 0.08);
+}
+
+.menuList {
+  max-height: 272px;
+  overflow-y: auto;
+  padding-left: 18px;
+  scrollbar-width: thin;
+  scrollbar-color: #dbdde0 transparent;
+}
+
+.menuList::-webkit-scrollbar {
+  width: 8px;
+}
+
+.menuList::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.menuList::-webkit-scrollbar-thumb {
+  background: #dbdde0;
+  border-radius: 10px;
+}
+
+.option,
+.optionSelected {
+  padding: 4px 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.4;
+  cursor: pointer;
+}
+
+.option {
+  color: #8d929a;
+}
+
+.option:hover,
+.optionSelected {
+  color: #101828;
+}
+
+/* ---------- mileage ---------- */
+.mileage {
+  display: flex;
+  min-width: 280px;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.input {
+  flex: 1;
+  width: 50%;
+  min-height: 44px;
+  padding: 0 18px;
+  font: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  color: #101828;
+  background: transparent;
+  border: none;
+  outline: none;
+  appearance: textfield;
+}
+
+.input::placeholder {
+  color: #101828;
+}
+
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+  margin: 0;
+  appearance: none;
+}
+
+.input + .input {
+  border-left: 1px solid #dbdde0;
+}
+
+.error {
+  margin: 0;
+  font-size: 12px;
+  color: #e5484d;
+}
+
+/* ---------- buttons ---------- */
+.actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-top: 20px; /* высота label + gap, чтобы Search был на одной линии с селектами */
+}
+
+.search {
+  min-height: 44px;
+  padding: 0 56px;
+  font: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  background: #00a8d6;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.search:hover {
+  background: #0090b9;
+}
+
+.clear {
+  font: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  color: #8d929a;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.clear:hover {
+  color: #101828;
+}

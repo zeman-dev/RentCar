@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import TanstackProvider from "@/components/TanStackProvider/TanStackProvider";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
+import Header from "@/components/Header/Header";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,6 +32,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
       <body>
         <TanstackProvider>
+          <Header/>
         {children}
         <ReactQueryDevtools/>
         </TanstackProvider>

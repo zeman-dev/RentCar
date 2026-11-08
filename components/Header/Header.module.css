@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1312px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+.headerLink {
+  display: flex;
+  align-items: center;
+}
+
+.headerList {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.listItem a {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.25;
+  color: #101828;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.listItem a:hover,
+.listItem a:focus-visible {
+  color: #00a8d6;
+}

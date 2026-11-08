@@ -1,0 +1,37 @@
+.container {
+  max-width: 1312px;
+  margin: 0 auto;
+  padding: 0 16px 80px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  margin: 64px 0 56px;
+}
+
+.status {
+  text-align: center;
+  font-size: 16px;
+  color: #8d929a;
+}
+
+.loadMore {
+  display: block;
+  margin: 56px auto 0;
+  padding: 12px 32px;
+  font: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  color: #00a8d6;
+  background: none;
+  border: 1px solid #00a8d6;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.loadMore:hover {
+  color: #fff;
+  background: #00a8d6;
+}
