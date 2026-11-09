@@ -1,0 +1,14 @@
+.carInfoContainer {
+  display: grid;
+  grid-template-columns: 640px 1fr;
+  gap: 48px;
+  align-items: start;
+  max-width: 1312px;
+  margin: 0 auto;
+  padding: 0 16px 80px;
+}
+
+
+.carInfoContainer {
+  padding-top: 64px;
+}

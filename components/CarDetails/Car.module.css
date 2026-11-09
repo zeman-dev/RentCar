@@ -1,0 +1,89 @@
+.loading,
+.error {
+  text-align: center;
+  color: #8d929a;
+}
+
+.error {
+  color: #e5484d;
+}
+
+.detailsHeader {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+}
+
+.detailsTitle {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #101828;
+}
+
+.detailsSubtitle {
+  font-size: 16px;
+  color: #8d929a;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 8px 0 32px;
+}
+
+.adress {
+  margin: 0;
+  font-size: 16px;
+  color: #101828;
+}
+
+.price {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #00a8d6;
+}
+
+.textDescription {
+  margin: 8px 0 0;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #101828;
+}
+
+.conditions,
+.specifications {
+  margin-bottom: 32px;
+}
+
+.conditionHeader,
+.specificationsHeader {
+  margin: 0 0 16px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #101828;
+}
+
+.List {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  color: #8d929a;
+}
+
+.listItem img {
+  width: 16px;
+  height: 16px;
+}
